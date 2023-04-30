@@ -1,0 +1,22 @@
+$wordColor: #ffd4b0;
+
+.section-icon {
+  fill: $wordColor;
+  height: 45px;
+  width: 45px;
+}
+
+.title {
+  color: $wordColor;
+  font-size: 56px;
+  font-weight: 700;
+  font-family: Saira, sans-serif;
+}
+
+.section-content {
+  border-top-color: $wordColor;
+  border-top-style: solid;
+  border-top-width: 1px;
+  margin-top: 60px;
+  padding-top: 60px;
+}
