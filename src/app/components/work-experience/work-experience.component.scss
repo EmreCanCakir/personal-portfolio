@@ -1,0 +1,19 @@
+$mainColor: #ffd4b0;
+
+.entry-wrapper {
+  color: $mainColor;
+
+  .entry-icon {
+    svg {
+      fill: $mainColor;
+      min-height: 34px;
+      padding: 4px 0 10px;
+      width: 20px;
+    }
+
+    .line{
+      border-left: 1px solid $mainColor;
+      position: absolute;
+    }
+  }
+}
