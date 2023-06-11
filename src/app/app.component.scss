@@ -1,5 +1,9 @@
 $wordColor: #ffd4b0;
 
+.section-wrapper {
+  min-height: 100vh;
+}
+
 .section-icon {
   fill: $wordColor;
   height: 45px;
@@ -15,57 +19,19 @@ $wordColor: #ffd4b0;
 }
 
 .section-content {
-  border-top-color: $wordColor;
-  border-top-style: solid;
-  border-top-width: 1px;
   margin-top: 60px;
   padding-top: 60px;
   align-items: center;
-
-  .profil-photo {
-    border-radius: 50%;
-    height: 163px;
-  }
 }
 
-.info-section {
-  display: flex;
-  flex-direction: column;
-  grid-row-gap: 20px;
-
-  .info-wrapper {
-    display: flex;
-    flex-direction: column;
-    color: $wordColor;
-    font-size: 18px;
-    font-family: Sairasans-serif;
-    letter-spacing: 1px;
-
-    .key {
-      line-height: 26px;
-      font-weight: 700;
-    }
-
-    .value {
-      line-height: 28px;
-    }
-    a{
-      text-decoration: none;
-      background-color: transparent;
-      width: fit-content;
-      color: $wordColor;
-    }
-    a:hover{
-      text-decoration: underline;
-    }
-  }
+.line-break-top {
+  border-top-color: $wordColor;
+  border-top-style: solid;
+  border-top-width: 1px;
 }
 
-.background-circles {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
+.line-break-bottom {
+  border-bottom-color: $wordColor;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
 }
